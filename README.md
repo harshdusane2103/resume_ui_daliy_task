@@ -14,3 +14,19 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<h1 align="center"> #️⃣6.2 Status Bar & Device Orientation#️⃣#️</h1>
+<P>
+  <h1 align="center">System over lay for gobal </h1>
+  <P>
+    ```bash
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+   statusBarColor: Colors.red
+ ));
+    
+ SystemChrome.setPreferredOrientations([
+   DeviceOrientation.landscapeLeft,
+ DeviceOrientation.landscapeRight,
+ ]);
+    ```
+  </P>
+</P>
