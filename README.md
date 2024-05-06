@@ -17,16 +17,27 @@ samples, guidance on mobile development, and a full API reference.
 <h1 align="center"> #️⃣6.2 Status Bar & Device Orientation#️⃣#️</h1>
 <P>
   <h1 align="center">System over lay for gobal </h1>
-  <P>
-    ```bash
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+ 
+  void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+ SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
    statusBarColor: Colors.red
  ));
-    
  SystemChrome.setPreferredOrientations([
    DeviceOrientation.landscapeLeft,
  DeviceOrientation.landscapeRight,
  ]);
-    ```
-  </P>
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: Approutes.routes,
+    );
+  }
+}
 </P>
