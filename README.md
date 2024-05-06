@@ -50,4 +50,39 @@ class MyApp extends StatelessWidget {
 
 </p>
 
+ <h1 align="center">System over lay use in appbar</h1>
+ 
+<P>
+  code Exmple :
+  
+```bash
+ 
+class homeScreen extends StatefulWidget {
+  const homeScreen({super.key});
+
+  @override
+  State<homeScreen> createState() => _homeScreenState();
+}
+
+class _homeScreenState extends State<homeScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        systemOverlayStyle:SystemUiOverlayStyle(
+          statusBarColor: Colors.green,
+
+        ),
+        title:Text('harsh ',style:TextStyle(color: Colors.black)),
+      ),
+      body: Column(
+
+      ),
+    );
+  
+
+```
+
+</p>
+
 </P>
