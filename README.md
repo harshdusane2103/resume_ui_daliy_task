@@ -62,71 +62,78 @@ samples, guidance on mobile development, and a full API reference.
 
 
 </p>
-
-i> List :
-=> Definition :
-A List is an ordered collection of elements. 
-Each element in a list is indexed starting from 0. 
-Lists can contain elements of any data type and can dynamically grow or shrink in size.
-
-=> Exmple :
-   List<String> myList = ['apple', 'banana', 'orange'];
-
- =>  Generics: 
-  Dart also supports generics for Lists.
-  In the example above, <String> specifies that the List can only hold String     
-  objects.
-
-=> Predefined Methods :
-  i> Insert elements in List :
-  ->   List.add(value);   => ("to add new element ").
-  ->  List.addAll(List);  =>("to Add new list "),
-  ->  List.Insert[index,value] =>("to add new element on the index")
-  -> List.Insert.all(index,list) =>("to new list on lindex ")
- 
-   ii> Update element in list :
-
-   -> list list_name[index]=vale;
-
-   iii> Delete in list :
-   
-   ->List.remove(value),
-   ->list.removeAt(index),
+```
 
 
-ii>  Map:
+    i> List :
+    => Definition :
+    A List is an ordered collection of elements. 
+    Each element in a list is indexed starting from 0. 
+    Lists can contain elements of any data type and can dynamically grow or shrink in size.
+    
+    => Exmple :
+       List<String> myList = ['apple', 'banana', 'orange'];
+    
+     =>  Generics: 
+      Dart also supports generics for Lists.
+      In the example above, <String> specifies that the List can only hold String     
+      objects.
+    
+    => Predefined Methods :
+      i> Insert elements in List :
+      ->   List.add(value);   => ("to add new element ").
+      ->  List.addAll(List);  =>("to Add new list "),
+      ->  List.Insert[index,value] =>("to add new element on the index")
+      -> List.Insert.all(index,list) =>("to new list on lindex ")
+     
+       ii> Update element in list :
+    
+       -> list list_name[index]=vale;
+    
+       iii> Delete in list :
+       
+       ->List.remove(value),
+       ->list.removeAt(index),
+    
+    
+    ii>  Map:
+    
+    Definition: 
+    => A Map in Dart is an unordered collection of key-value pairs. 
+       Each key in a map must be unique. 
+       Maps are used to associate keys with values for efficient data retrieval.
+    
+    Example:
+    
+    => Map<String, int> myMap = {'apple': 10, 'banana': 5, 'orange': 8};
+    
+    Generics: 
+    -=> specify the types of keys and values in a Map. 
+    In the example above, <String, int> specifies that the keys are Strings and the values are integers.
+    
+    Predefined Methods:
+    
+    -> remove(Object? key): Removes the entry for the specified key from the map if it is present.
+    -> containsKey(Object? key): Returns true if the map contains the specified key.
+    ->  keys: Returns an iterable containing all the keys in the map.
+    
+    Example :
+    
+    print(myMap['apple']); 
 
-Definition: 
-=> A Map in Dart is an unordered collection of key-value pairs. 
-   Each key in a map must be unique. 
-   Maps are used to associate keys with values for efficient data retrieval.
 
-Example:
+    
 
-=> Map<String, int> myMap = {'apple': 10, 'banana': 5, 'orange': 8};
-
-Generics: 
--=> specify the types of keys and values in a Map. 
-In the example above, <String, int> specifies that the keys are Strings and the values are integers.
-
-Predefined Methods:
-
--> remove(Object? key): Removes the entry for the specified key from the map if it is present.
--> containsKey(Object? key): Returns true if the map contains the specified key.
-->  keys: Returns an iterable containing all the keys in the map.
-
-Example :
-
-print(myMap['apple']);  
-
-
-
-
-
-
-
-
-
+```
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
