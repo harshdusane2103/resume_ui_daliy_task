@@ -16,8 +16,8 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 <h1 align="center"> #️⃣6.1 List of Map#️⃣#️</h1>
 <P>
-<h6 align="center">
-  WAP to get user info from user and set it into map and print all info by the Map(minimum 10 fields required).</h6>
+<h6 align="left">
+  Q 1 . WAP to get user info from user and set it into map and print all info by the Map(minimum 10 fields required).</h6>
   <P>
     ```bash
     
