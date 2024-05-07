@@ -60,12 +60,9 @@ samples, guidance on mobile development, and a full API reference.
 <p align ="center">
   <h4 align="left">Q 2. What is List and Map ? (Defination,example,generics, predefine methods withn examples.)</h4>
 
-
-</p>
 ```
 
-
-    i> List :
+   i> List :
     => Definition :
     A List is an ordered collection of elements. 
     Each element in a list is indexed starting from 0. 
@@ -120,21 +117,11 @@ samples, guidance on mobile development, and a full API reference.
     Example :
     
     print(myMap['apple']); 
+  ```
+    
+</p>
 
-
     
-
-```
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 
 
 <h1 align="center"> #️⃣6.2 Status Bar & Device Orientation#️⃣#️</h1>
