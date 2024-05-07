@@ -14,6 +14,50 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<h1 align="center"> #️⃣6.1 List of Map#️⃣#️</h1>
+<P>
+<h6 align="center">
+  WAP to get user info from user and set it into map and print all info by the Map(minimum 10 fields required).</h6>
+  <P>
+    ```bash
+    
+    import 'dart:io';
+    void main()
+    {
+    Map resume={
+    'name':Null,
+    'age':Null,
+      'Course':Null,
+      'college':Null,
+      'year':Null,
+      'skills':Null,
+      'job experience':Null,
+      'address':Null,
+      'email':Null,
+      'phone':Null,
+    };
+      for(String key in resume.keys)
+      {
+        stdout.write("enter the keys");
+        resume[key]=stdin.readLineSync();
+      }
+      print("your resume is :");
+      
+      for(String key in resume.keys )
+      {
+        stdout.write("$key : ${resume[key]}\n ");
+      }
+    }
+
+```
+
+  `
+
+
+</P>
+  
+
+</P>
 <h1 align="center"> #️⃣6.2 Status Bar & Device Orientation#️⃣#️</h1>
 <P>
   <h1 align="center">System over lay for gobal </h1>
