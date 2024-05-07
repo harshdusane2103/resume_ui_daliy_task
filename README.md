@@ -15,7 +15,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 <h1 align="center"> #️⃣6.1 List of Map#️⃣#️</h1>
-<P>
+<P align="center">
 <h4 align="left">
   Q 1 . WAP to get user info from user and set it into map and print all info by the Map(minimum 10 fields required).</h4>
   <P>
@@ -59,6 +59,10 @@ samples, guidance on mobile development, and a full API reference.
 </p>
 <p align ="center">
   <h4 align="left">Q 2. What is List and Map ? (Defination,example,generics, predefine methods withn examples.)</h4>
+
+
+</p>
+
 i> List :
 => Definition :
 A List is an ordered collection of elements. 
@@ -114,10 +118,6 @@ Predefined Methods:
 Example :
 
 print(myMap['apple']);  
-
-
-</p>
-
 
 
 
