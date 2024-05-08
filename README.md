@@ -39,7 +39,7 @@ samples, guidance on mobile development, and a full API reference.
             };
               for(String key in resume.keys)
               {
-                stdout.write("enter the keys");
+                stdout.write("enter the keys ${key} : ");
                 resume[key]=stdin.readLineSync();
               }
               print("your resume is :");
@@ -79,6 +79,26 @@ samples, guidance on mobile development, and a full API reference.
     => Predefined Methods :
       i> Insert elements in List :
       ->   List.add(value);   => ("to add new element ").
+         Exmple :
+          ```bash
+                        import 'dart:io';
+                
+                  void main() {
+                    List <String> name = [];
+                
+                    print("Enter number of Name : ");
+                    int n = int.parse(stdin.readLineSync()!);
+                
+                    for (int i = 0; i < n; i++) {
+                      print("Enter Name : ");
+                      String val = stdin.readLineSync()!;
+                      name.add(val);
+                    }
+                
+                    print(name);
+                  }
+
+          ```
       ->  List.addAll(List);  =>("to Add new list "),
       ->  List.Insert[index,value] =>("to add new element on the index")
       -> List.Insert.all(index,list) =>("to new list on lindex ")
