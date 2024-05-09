@@ -13,6 +13,10 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
+
+https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/3fe2debd-3ad2-4824-b08d-0715bc86b840
+
+
 samples, guidance on mobile development, and a full API reference.
 
 
@@ -227,9 +231,13 @@ class _homeScreenState extends State<homeScreen> {
 <p>
   <img src="https://github.com/harshdusane2103/resume_ui_daliy_task/blob/master/gmail.png" width=22%,height=35%>
   
-  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/52763908-1bfd-4c8e-85d4-29a7e475e7b8">
+  <video src="https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/06985369-21e0-4caf-a99d-c53e6b97a81f">
 </p>
 
+
+
+
+https://github.com/harshdusane2103/resume_ui_daliy_task/assets/161817658/06985369-21e0-4caf-a99d-c53e6b97a81f
 
 
 
